@@ -42,13 +42,13 @@ export default function Home() {
     return (
       <div className="flex flex-col min-h-screen items-center justify-center bg-linear-to-br from-pink-200 via-red-200 to-pink-300 overflow-hidden">
         <div className="text-center animate-bounce">
-          <h2 className="text-6xl font-bold text-red-600 mb-4">Yayyy!!!</h2>
+          <h2 className="text-6xl font-bold text-red-600 mb-4">Splendid!</h2>
           <p className="text-3xl text-pink-700">
-            This Saturday we can order in, build eevee, play it takes two and
-            watch singles inferno HAHAHAHAHAHAHAHAHAHAHAHA{" "}
+            This Saturday we can order in, build Eevee, play It Takes Two, and
+            watch Singles Inferno.
           </p>
           <p className="text-9xl text-purple-700">
-            No backing out now Miss Tan
+            There shall be no backing out now, Miss Tan
           </p>
         </div>
 
@@ -63,7 +63,7 @@ export default function Home() {
             onMouseEnter={() => setSpin(true)}
             onMouseLeave={() => setSpin(false)}
           >
-            Fine i click to accept
+            Very well, I shall click to accept
           </button>
         </a>
       </div>
@@ -74,9 +74,13 @@ export default function Home() {
     return (
       <div className="flex flex-col min-h-screen items-center justify-center bg-linear-to-br from-pink-200 via-red-200 to-pink-300 overflow-hidden">
         <div className="text-center">
-          <h2 className="text-6xl font-bold text-red-600 mb-4">Wow</h2>
-          <p className="text-3xl text-pink-700">So good at clicking no ah</p>
-          <p className="text-9xl text-purple-700 mt-7">YOU WATCH OUT TJF</p>
+          <h2 className="text-6xl font-bold text-red-600 mb-4">My word</h2>
+          <p className="text-3xl text-pink-700">
+            How proficient you are at clicking no
+          </p>
+          <p className="text-9xl text-purple-700 mt-7">
+            You must be careful, TJF
+          </p>
         </div>
 
         <a
@@ -88,7 +92,7 @@ export default function Home() {
             className="bg-amber-950 px-2 cursor-pointer mt-36"
             onClick={handleRickRoll}
           >
-            click because Haha brandon is a loser
+            Click here because Brandon is rather unfortunate
           </button>
         </a>
       </div>
@@ -99,15 +103,19 @@ export default function Home() {
     return (
       <div className="flex flex-col min-h-screen items-center justify-center bg-linear-to-br from-pink-200 via-red-200 to-pink-300 overflow-hidden">
         <div className="text-center">
-          <h2 className="text-6xl font-bold text-red-600 mb-4">LMAO</h2>
-          <p className="text-9xl text-purple-700 mt-7">try harder</p>
+          <h2 className="text-6xl font-bold text-red-600 mb-4">
+            Oh dear, you have been jinxed!
+          </h2>
+          <p className="text-9xl text-purple-700 mt-7">
+            Please endeavour to try harder
+          </p>
         </div>
 
         <button
           className="bg-amber-950 px-2 cursor-pointer mt-36"
           onClick={() => setRickRoll(false)}
         >
-          click to accept invitation again
+          Click to accept the invitation once more
         </button>
       </div>
     );
@@ -119,9 +127,9 @@ export default function Home() {
       <div className="flex md:hidden flex-col items-center justify-center text-center px-8">
         <h1 className="text-4xl font-bold text-red-600 mb-6">📱❌</h1>
         <h2 className="text-3xl font-bold text-red-600 mb-4">
-          No no nonono, You kennot view this on fone
+          You cannot view this on a phone
         </h2>
-        <p className="text-xl text-pink-700">Use your lappy okie?! 💻</p>
+        <p className="text-xl text-pink-700">Please use your laptop 💻</p>
       </div>
 
       {/* Main content - hidden on small screens */}
