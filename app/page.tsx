@@ -157,10 +157,10 @@ export default function Home() {
 
         <main className="flex flex-col items-center justify-center gap-8 px-8 z-10">
           <h1 className="text-5xl md:text-7xl font-bold text-red-600 text-center drop-shadow-lg">
-            Will you be my Valentine?
+            Fei,
           </h1>
           <h1 className="text-5xl md:text-7xl font-bold text-red-600 text-center drop-shadow-lg">
-            肥猪猪
+            Will you be my Valentine?
           </h1>
 
           <div className="flex items-center gap-6 mt-8">
